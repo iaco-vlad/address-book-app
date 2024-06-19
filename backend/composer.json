@@ -1,0 +1,17 @@
+{
+  "description": "A tiny version of an address-book application",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "^5.6",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AddressBook\\": "app/"
+    }
+  },
+  "prefer-stable": true
+}
